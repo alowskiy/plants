@@ -1,16 +1,17 @@
-.landing{
-    margin: 0 auto;
-    padding: 0;
-width: 1440px  !important;
-box-sizing: border-box;
-        max-width:1440px !important;
-
-}
-    body {
+body {
         margin: 0;
     padding: 0;
-    box-sizing: border-box;
+
 }
+
+.landing{
+
+ margin: 0 auto !important;
+    max-width:1440px !important;
+    width: 1440px !important;
+
+}
+
 h2{
     margin: 0;
 }
