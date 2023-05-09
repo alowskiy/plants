@@ -1,8 +1,10 @@
 .landing{
     margin: 0 auto;
     padding: 0;
-width: 1440px;
+width: 1440px  !important;
 box-sizing: border-box;
+        max-width:1440px !important;
+
 }
     body {
         margin: 0;
