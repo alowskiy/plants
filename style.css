@@ -1,0 +1,925 @@
+
+.landing{
+    margin: 0 auto;
+    padding: 0;
+max-width: 1440px;
+box-sizing: border-box;
+  margin: 0 auto !important;
+}
+    body {
+        margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 1440px;
+}
+
+html,body{
+max-width:100% !important;
+width: 100%;
+
+}
+h2{
+    margin: 0;
+}
+.welcome{
+    background: rgba(237, 242, 236, 1);
+    height: 666px;
+ }
+ h3{
+    margin: 0;
+    margin-right: auto;
+    font-family: Inika;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Inika', serif;
+    height: 134px;
+    align-items: center;
+}
+.n-list{
+    display: flex;
+    margin: 0;
+    list-style: none;
+    gap: 46px;
+    margin-right: 109px;
+}
+.logo{
+    margin-left: 111px;
+    margin-top: -7px;
+}
+.leafs-welcome{
+    margin-top: 62px;
+    margin-left: 109px;
+}
+.welcome-desc-and-button{
+   float: right;
+   margin: 0;
+   margin-top: 98px;
+   margin-right: 109px;
+}
+.welcome-desc-and-button>h1{
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    color:rgba(113, 113, 113, 1);
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0em;
+
+}
+.welcome-desc-and-button>p{
+    margin-top: 42px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(99, 96, 96, 1);
+
+}
+.plants{
+    color:rgba(73, 154, 24, 1)
+}
+
+.welcome-desc-and-button>button{
+    border: 2px solid rgba(224, 103, 51, 1);
+    border-radius: 10px;
+    width: 158px;
+    height: 44px;
+    font-size: 16px;
+    font-family: Inter;
+    margin-top: 48px;
+}
+.pro-garden{
+    color: rgba(224, 103, 51, 1);
+    font-family: Inika;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 52px;
+    letter-spacing: 0em;
+
+
+
+}
+.about-desc{
+    margin-left: 109px;
+    margin-top: 161px;
+    font-family: Inika;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 52px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(73, 154, 24, 1);
+    width: 605px;
+
+}
+.about{
+    display: flex;
+    height: 666px;
+}
+.about-desc>p{
+margin-top:40px;
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+color:rgba(99, 96, 96, 1);
+
+}
+.about-img{
+    margin-left: 153px;
+    height: 479px;
+    width: 464px;
+    margin-top: 95px ;
+
+}
+.about-desc>h2{
+    font-weight: 400;
+    font-family: Inika;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 52px;
+    letter-spacing: 0em;
+
+}
+.caption-and-buttons{
+    display: flex;
+}
+.caption-and-buttons>div>button:nth-child(1){
+    margin-left: 142px;
+}
+.caption-and-buttons>h2{
+    margin-left: 109px !important;
+    font-family: Inika;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 52px;
+    letter-spacing: 0em;
+    margin-top: 40px;
+    color: rgba(73, 154, 24, 1);
+
+}
+.caption-and-buttons>div>button{height: 50px;
+    width: 161px;
+    border-radius: 5px;
+    border: 1px solid rgba(224, 103, 51, 1);
+    font-family: Inika;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    margin-top: 69px;
+    background: rgba(237, 242, 236, 1);
+    color: rgba(224, 103, 51, 1);
+}
+.caption-and-buttons>div>button:nth-child(2){
+    margin-left: 42px;
+}
+.caption-and-buttons>div>button:nth-child(3){
+    margin-left: 42px;
+}
+
+.service{
+    background: rgba(237, 242, 236, 1);
+    height: 1300px;
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: 330px 330px 330px;
+    column-gap: 95px;
+    row-gap: 55px;
+
+    justify-items: center;
+    text-align: center;
+    margin-top: 90px;
+
+}
+
+.gallery_container{
+    display: flex;
+    justify-content: center;
+    padding: 0 109px;
+}
+
+figcaption{
+    color: rgba(224, 103, 51, 1);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    border: 1px solid   rgba(227, 225, 213, 1);
+    border-radius: 0px 0px 20px 20px;
+}
+figcaption>span{
+    color: rgba(113, 113, 113, 1);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+}
+
+.prices{
+    height: 560px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 109px;
+}
+
+.price-rate{
+    width: 332px;
+    margin: 0 !important;
+}
+.price-rate-buttons{
+    height: 282px;
+    border-radius: 20px;
+    border: 1px solid rgba(227, 225, 213, 1);
+    margin-top: 60px;
+
+align-content: center;
+
+column-gap: 0px;
+flex-wrap: wrap;
+justify-content: center;
+
+}
+.price-rate-buttons>div{
+    width: 250px;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    border-radius: 20px;
+
+    text-align: left;
+    background: #EDF2EC;
+    border: none;
+
+}
+.price-rate-buttons>div>p {
+    padding-left: 40px;
+    padding-top: 15px;
+    margin: 0;
+}
+
+.price-rate-buttons>div>img{
+    float: right;
+
+}
+.price-rate{
+    margin-left: 109px;
+}
+.text-and-button>h2{
+
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    margin-top: 40px;
+    width: 452px;
+    margin-right: 109px;
+
+}
+.text-and-button>h2>span{
+    color:rgba(73, 154, 24, 1)
+}
+.text-and-button>button{
+    border: 1px solid rgba(224, 103, 51, 1);
+    width: 162px;
+    height: 50px;
+    border-radius: 5px;
+    align-self: flex-end;
+    margin-top:38px;
+    background-color: white;
+    font-family: Inika;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0em;
+    color: rgba(224, 103, 51, 1);
+}
+
+.text-and-button>img{
+    margin-left: auto;
+    width: 152px;
+    height: 174.99px;
+}
+.text-and-button{
+    display: flex;
+    flex-direction: column;
+    width: 452px;
+
+}
+.leafs-price{
+    align-self: flex-end;
+    margin-top: 39px;
+    width: 152px;
+    height: 174.99px;
+}
+.price-rate>h2{
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    margin-top: 40px !important;
+
+}
+.price-rate-buttons>div:first-child{
+    margin-top: 34px;
+
+
+}
+.price-rate-buttons>div:nth-child(3){
+
+
+    margin-top: 0px;
+}
+
+.price-rate-buttons>div:nth-child(5){
+    margin-bottom: 32px;
+
+
+
+}
+
+.contacts{
+    height: 550px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background: rgba(237, 242, 236, 1);
+
+}
+.contacts>img{
+    margin-left: 109px;
+    margin-top: 53px;
+}
+
+.contacts>h2{
+    margin-left: 113px;
+    margin-top: 60px    ;
+    font-family: Inika;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0em;
+    color: rgba(73, 154, 24, 1);
+
+
+}
+.contacts>button{
+    margin-left: 64px;
+    margin-top: 148px;
+    min-width: 320px;
+    max-width: 450px;
+    height: 50px;
+    text-align: left;
+    padding-left: 20px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+    color: rgba(113, 113, 113, 1);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background: rgba(214, 231, 210, 1);
+
+
+
+
+}
+.contacts>button>img{
+    float: right;
+    padding-right: 15px;
+    padding-top: 12px;
+}
+footer{
+    height: 130px;
+    display: flex;
+    background-color:white;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+footer>div>img{
+    width: 32px;
+    height: 32px;
+}
+
+footer p:nth-child(2){
+    margin-left: 20px;
+}
+
+footer p:nth-child(3){
+    margin-left: 20px;
+}
+
+.info-1{
+    display: flex;
+}
+
+footer>p {
+    margin: 0;
+    padding: 0;
+}
+footer>div>p{
+    margin: 0;
+    padding: 0;
+}
+
+footer>div>img:first-child{
+    margin-left: 20px;
+
+}
+footer>div>div>img{width: 32px;
+    height: 32px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+    width: 100%;
+    max-width: 100%;
+}
+
+.hover:hover, button:hover {
+    background-color: rgba(224, 103, 51, 1);
+    color: white;
+}
+.hl-basics {
+    width: 164px;
+    height: 0.3px;
+    background-color: rgba(113, 113, 113, 1);
+    margin-top: 28px;
+    flex-shrink: 0;
+    margin-left: 40px;
+    margin-top: 12px;
+
+}
+
+.accordion-1, .accordion-2, .accordion-3 {
+    margin-left: 0px;
+    margin-top: 2px;
+    float: right;
+    margin-right: 40px;
+}
+.basics>p {
+    margin-top: 34px;
+    margin-bottom: 0px;
+}
+div.pro {
+    margin-top:34px !important
+}
+div.standart{
+    margin-top:34px !important
+}
+.p-basics {
+font-family: Inter;
+font-size: 10px;
+font-weight: 300;
+line-height: 10px;
+letter-spacing: 0em;
+text-align: left;
+color: rgba(113, 113, 113, 1);
+
+
+}
+.cost{
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+margin-top: 6px;
+
+
+
+color: #E06733;}
+.span-cost {color: #000000;
+font-weight: 400;}
+
+.cost>div {
+    margin-top: 7px;   
+
+    width: 86px;
+    height: 25px;
+    height: 25px;
+
+border-radius: 10px;
+background-color: white;
+color: rgba(113, 113, 113, 1);
+
+
+}
+.about-desc>p:last-child{
+    display: none;
+}
+.tg{
+    width: 32px;
+    height: 32px;
+
+}
+.welcome-p-mobile{
+display: none;
+}
+
+.menu-burger{display: none;}
+@media (min-width:30px) and (max-width:426px) {  
+body{
+
+}
+.landing{
+
+
+
+
+    width: auto;
+
+    margin: 0 auto;
+overflow-x: hidden;
+}
+section{
+    padding: 0 25px;
+}
+.gallery>figure>img{
+
+
+    max-width: 279px;
+}
+.gallery{
+  margin-left: 0px ;
+      grid-template-columns: 280px;
+      grid-template-rows: 450px 450px 450px 450px 450px 450px;
+      justify-content: center;
+      margin-top: 40px;
+      row-gap: 34px;
+}
+.nav-list, .n-list{
+display: none;
+}
+
+
+.logo{
+    margin-left: 0px;
+
+
+    
+}
+
+.menu-burger {width: 40px;
+height: 24px;
+background-color: #E06733;
+display: block;
+
+}
+.leafs-welcome{
+    display: none;
+}
+header{
+    height: 96px;
+}
+.welcome-desc-and-button{
+    float: none;
+    margin: 0;
+
+}
+.welcome-desc-and-button>h1{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 35px;
+max-width: 330px;
+margin-top: 24px;
+min-width: 279px;
+
+
+
+}
+.welcome-desc-and-button>p{
+    min-width: 279px;
+max-width: 330px;
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: 0em;
+margin-top: 20px;
+
+
+
+
+
+
+}
+.welcome-desc-and-button>button{
+    margin-top: 20px;
+    width:64px;
+
+height: 34.13654708862305px;
+width: 100px;
+left: 25px;
+top: 241.8634490966797px;
+border-radius: 10px;
+font-family: Inter;
+font-size: 10px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+
+
+}
+
+.welcome{
+    height: 396px;
+}
+.welcome-p{display: none;}
+.welcome-p-mobile{display: block;margin-bottom: -7px; max-width: 330px;}
+.about-desc{
+
+min-width: 279px;
+    max-width: 330px;
+    margin-left: 0;
+    flex-direction: column;
+    margin-top: 30px;
+
+    
+}
+.about{
+max-width: 330px;
+flex-direction: column;
+align-items: center;
+height: 516px;
+}
+.about-desc>h2, .pro-garden{
+font-family: Inika;
+font-size: 25px;
+font-weight: 400;
+line-height: 33px;
+letter-spacing: 0em;
+text-align: center;
+max-width: 330px;
+
+
+}
+
+.about-desc>p{
+display: none;
+
+
+}
+.about-desc>p:last-child{
+display: block;
+font-family: Inter;
+font-size: 15px;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: 0em;
+text-align: left;
+margin-top: 21px;
+
+
+
+}
+
+.about-img {
+    margin: 0;
+    width: 150px;
+height: 147px;
+margin-top: -4px;
+
+}
+
+.caption-and-buttons>h2{
+font-family: Inika;
+font-size: 25px;
+font-weight: 400;
+line-height: 33px;
+letter-spacing: 0em;
+text-align: left;
+min-width: 187px;
+margin-left: 0 !important;
+
+}
+.caption-and-buttons>div>button{
+
+    margin: 0  !important;
+    width: 121px;
+    height: 35px;
+}
+.caption-and-buttons{
+    display: flex !important;
+    flex-direction: column;
+
+}
+.caption-and-buttons>div{
+    margin-top: 35px;
+}
+.caption-and-buttons>div>button:last-child{
+margin-top: 9px !important;
+}
+.caption-and-buttons>div>button:nth-child(2){
+margin-left: 10px !important;
+}
+figcaption{
+    height: 100px;
+}
+figure>figcaption>span:first-child{margin-top: 42px !important;color: #E06733;}
+figure>figcaption>span:last-child {
+    max-width: 201px !important;
+    display: block;
+margin-left: auto;
+margin-right: auto;
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+margin-top: 10px;
+
+ 
+}
+.service{
+    height: 3150px;
+}
+.prices{display: block;;height: 512px;gap:0 !important;
+padding: 0;
+}
+.price-rate-buttons{
+    max-width: 224px;
+
+
+}
+.price-rate-buttons>div{
+max-width: 180px;
+font-family: Inter;
+font-size: 15px;
+font-weight: 700;
+line-height: 20px;
+letter-spacing: 0em;
+
+
+
+}
+.price-rate>h2{
+    margin-top: 25px  !important;
+}
+.price-rate-buttons{
+    min-width: 224px;
+    margin-top: 40px;
+    height: 235px;
+
+
+}
+.price-rate-buttons>div>p{
+
+    padding-left: 30px;
+}
+.price-rate{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.text-and-button>h2{
+
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+line-height: 35px;
+letter-spacing: 0em;
+text-align: center;
+
+margin-top: 19px;
+
+}
+.price-rate{
+    width: auto;
+}
+
+.text-and-button{
+    width: auto;
+        max-width: 425px;
+    align-items: center;
+
+}
+.price-rate-buttons>div:first-child{
+    margin-top: 29px;
+
+
+}
+.price-rate-buttons>div:nth-child(2){
+
+
+    margin-top: 13px !important;
+}
+
+.price-rate-buttons>div:nth-child(3){
+    margin-top: 13px !important;
+
+
+}
+.text-and-button>h2{
+margin: 0;
+margin-top: 19px;
+}
+.text-and-button>button{
+    align-self: center;
+    margin-top: 14px;
+}
+.text-and-button>button{
+max-width: 121px;
+height: 35px;
+}
+.leafs-price{
+display: none;
+}
+.contacts{
+    flex-direction: column-reverse;
+    align-items: center;
+
+}
+.contacts>img{
+    width: 100px;
+    height: 124px;
+}
+.contacts>h2{
+    order: 3;
+         margin: 0;
+
+         margin-top: 25px;
+
+   
+}
+.contacts>img{
+margin: 0;
+}
+.contacts>button{
+    margin: 0;
+    margin-bottom: auto;
+             margin-top: 80px;
+             max-width: 300px;
+}
+footer>p{
+    font-family: Inter;
+font-size: 15px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+    max-width: 210px;
+    text-align: center;
+
+}
+footer>div>p{
+margin: 2px !important;
+}
+footer{
+    flex-direction: column;
+
+}
+}
+
+
+
+.hidden {
+    display: none;
+}
+
+
+.opened {
+height: 210px !important
+}
